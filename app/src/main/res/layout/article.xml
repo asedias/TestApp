@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:id="@+id/article_header"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18sp"
+        tools:text="«Лестер» " />
+
+    <TextView
+        android:id="@+id/article_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        tools:text="У «Лестера» в последнее время дела не заладились. «Лисы» за последние две недели успели проиграть в Премьер-лиге «Эвертону» 1:2 и «Манчестер Сити» 1:5, а также не смогли удержать победный счет в домашнем матче с «Суонси» - 1:1. Последний успешный поединок подопечных Клода Пюэля состоялся как раз в Кубке Англии." />
+</LinearLayout>
